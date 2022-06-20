@@ -1,20 +1,20 @@
 
-### Chapter 2 DOM
+# Chapter 2 DOM
 
-# DOM 이해
+### DOM 이해
 
 - HTML / tag  ->  Javascript / Node로 변환 => DOM
 
 * EventTarget -> Node -> Document, Element, Text … -> html, body …
 
-# CSSOM 
+### CSSOM 
 
 - CSS / property  ->  Javascript / Node로 변환 => CSSOM (DOM + CSS = CSSOM)
 
 - DOM + CSSOM = Render Tree
 : 사용자에게 최종적으로 브라우저에 보여지는 요소들
 
-# Critical rendering path
+### Critical rendering path
 
 - 클라이언트 -> 서버 렌더링 과정
 : request/response -> loading -> scripting -> rendering -> layout -> painting
@@ -33,13 +33,13 @@
 
 - CSS 브라우저 성능 개선 방법 => Will-change , left나 top 등 보다는 transform 사용하여 위치 조정하기
 
-# 성능 확인법
+### 성능 확인법
 
 - 개발자 도구 - performance
 : 녹화 후 프로파일링 된 자료 확인하기 / 
 Experience에 빨간 불이 뜰수록 성능 저하된 웹 ( layout shift)
 
-# DOM 요소
+### DOM 요소
 
 - createElement(‘’) : 요소 만들기
 - setAttribute(‘속성’, ‘속성명’) : 속성과 속성명 지정
